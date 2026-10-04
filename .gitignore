@@ -1,0 +1,26 @@
+app/node_modules/
+app/dist/
+app/.wrangler/
+app/tsconfig.tsbuildinfo
+tools/__pycache__/
+.sites-runtime/
+tmp/
+output/
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+
+# Local launch and deployment notes are not needed to run the source.
+Start Plant Brain.cmd
+Start-PlantBrain.ps1
+docs/mobile-hosting.md
+
+# Duplicate of the original week-one list.
+Week 1 Plant List - Sheet1 (1).pdf

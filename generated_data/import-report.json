@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "weeklyEntries": 185,
+    "uniquePlants": 182,
+    "modules": 9,
+    "extractedImages": 553,
+    "associatedImages": 550,
+    "plantsWithoutImages": 3
+  },
+  "issues": [
+    "Week 3 Rhus ovata: plant factor differs \u2014 master 'VL'; weekly PDF 'L'. Imported master value.",
+    "Week 3 list entries without a matched presentation slide: Salvia (Rosmarinus) officinalis.",
+    "Week 8 list entries without a matched presentation slide: Rhamnus californica.",
+    "Week 9 list entries without a matched presentation slide: Arctostaphylos sp. + cvs, Ceanothus cvs.",
+    "Unassociated presentation slides: Week 9 p.2 (Arctostaphylos glauca \u2013 Bigberry Manzanita)."
+  ],
+  "unmatchedSlides": [
+    {
+      "week": 9,
+      "file": "Plant Materials for Landscape Use - Week 9 - California Natives Presentation.pdf",
+      "page": 2,
+      "title": "Arctostaphylos glauca \u2013 Bigberry Manzanita"
+    }
+  ]
+}

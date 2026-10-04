@@ -1,0 +1,742 @@
+{
+  "week-1-position-1": {
+    "name": "Acanthus mollis",
+    "id": "acanthus-mollis"
+  },
+  "week-1-position-2": {
+    "name": "Agapanthus sp.",
+    "id": "agapanthus-sp"
+  },
+  "week-1-position-3": {
+    "name": "Amaryllis belladonna",
+    "id": "amaryllis-belladonna"
+  },
+  "week-1-position-4": {
+    "name": "Anigozanthos cvs",
+    "id": "anigozanthos-cvs"
+  },
+  "week-1-position-5": {
+    "name": "Asparagus densiflorus 'Sprengeri'",
+    "id": "asparagus-densiflorus-sprengeri"
+  },
+  "week-1-position-6": {
+    "name": "Aspidistra elatior",
+    "id": "aspidistra-elatior"
+  },
+  "week-1-position-7": {
+    "name": "Canna spp.",
+    "id": "canna-spp"
+  },
+  "week-1-position-8": {
+    "name": "Clivia miniata",
+    "id": "clivia-miniata"
+  },
+  "week-1-position-9": {
+    "name": "Coleus (Plectranthus) argentatus",
+    "id": "coleus-plectranthus-argentatus"
+  },
+  "week-1-position-10": {
+    "name": "Dianella tasmanica",
+    "id": "dianella-tasmanica"
+  },
+  "week-1-position-11": {
+    "name": "Dietes grandiflora",
+    "id": "dietes-grandiflora"
+  },
+  "week-1-position-12": {
+    "name": "Doryanthes palmeri",
+    "id": "doryanthes-palmeri"
+  },
+  "week-1-position-13": {
+    "name": "Hemerocallis sp.",
+    "id": "hemerocallis-sp"
+  },
+  "week-1-position-14": {
+    "name": "Lepechinia fragrans",
+    "id": "lepechinia-fragrans"
+  },
+  "week-1-position-15": {
+    "name": "Limonium perezii",
+    "id": "limonium-perezii"
+  },
+  "week-1-position-16": {
+    "name": "Liriope muscari",
+    "id": "liriope-muscari"
+  },
+  "week-1-position-17": {
+    "name": "Melianthus major",
+    "id": "melianthus-major"
+  },
+  "week-1-position-18": {
+    "name": "Phormium tenax",
+    "id": "phormium-tenax"
+  },
+  "week-1-position-19": {
+    "name": "Sphaeralcea ambigua",
+    "id": "sphaeralcea-ambigua"
+  },
+  "week-1-position-20": {
+    "name": "Strelitzia nicolai",
+    "id": "strelitzia-nicolai"
+  },
+  "week-1-position-21": {
+    "name": "Strelitzia reginae",
+    "id": "strelitzia-reginae"
+  },
+  "week-1-position-22": {
+    "name": "Zephranthes candida",
+    "id": "zephranthes-candida"
+  },
+  "week-2-position-1": {
+    "name": "Agrostis pallens",
+    "id": "agrostis-pallens"
+  },
+  "week-2-position-2": {
+    "name": "Boutulea gracilis",
+    "id": "boutulea-gracilis"
+  },
+  "week-2-position-3": {
+    "name": "Carex pansa",
+    "id": "carex-pansa"
+  },
+  "week-2-position-4": {
+    "name": "Carex tumulicola",
+    "id": "carex-tumulicola"
+  },
+  "week-2-position-5": {
+    "name": "Chondropetalum tectorum",
+    "id": "chondropetalum-tectorum"
+  },
+  "week-2-position-6": {
+    "name": "Equisetum hyemale",
+    "id": "equisetum-hyemale"
+  },
+  "week-2-position-7": {
+    "name": "Juncus 'Carman's Japan'",
+    "id": "juncus-carman-s-japan"
+  },
+  "week-2-position-8": {
+    "name": "Lomandra hystrix 'Tropic Belle'",
+    "id": "lomandra-hystrix-tropic-belle"
+  },
+  "week-2-position-9": {
+    "name": "Muhlenbergia rigens",
+    "id": "muhlenbergia-rigens"
+  },
+  "week-2-position-10": {
+    "name": "Otatea acuminata",
+    "id": "otatea-acuminata"
+  },
+  "week-2-position-11": {
+    "name": "Sesleria autumnalis",
+    "id": "sesleria-autumnalis"
+  },
+  "week-2-position-12": {
+    "name": "Stipa (Nassella) tenuisima",
+    "id": "stipa-nassella-tenuisima"
+  },
+  "week-2-position-13": {
+    "name": "Archontophoenix cunninghamiana",
+    "id": "archontophoenix-cunninghamiana"
+  },
+  "week-2-position-14": {
+    "name": "Bismarkia nobilis",
+    "id": "bismarkia-nobilis"
+  },
+  "week-2-position-15": {
+    "name": "Brahea armata",
+    "id": "brahea-armata"
+  },
+  "week-2-position-16": {
+    "name": "Chamaerops humilis",
+    "id": "chamaerops-humilis"
+  },
+  "week-2-position-17": {
+    "name": "Phoenix canariensis",
+    "id": "phoenix-canariensis"
+  },
+  "week-2-position-18": {
+    "name": "Phoenix dactylifera",
+    "id": "phoenix-dactylifera"
+  },
+  "week-2-position-19": {
+    "name": "Phoenix roebelenii",
+    "id": "phoenix-roebelenii"
+  },
+  "week-2-position-20": {
+    "name": "Phoenix reclinata",
+    "id": "phoenix-reclinata"
+  },
+  "week-2-position-21": {
+    "name": "Syagrus romanzoffiana",
+    "id": "syagrus-romanzoffiana"
+  },
+  "week-2-position-22": {
+    "name": "Trachycarpus fortunei",
+    "id": "trachycarpus-fortunei"
+  },
+  "week-2-position-23": {
+    "name": "Washingtona filifera",
+    "id": "washingtona-filifera"
+  },
+  "week-2-position-24": {
+    "name": "Washingtonia robusta",
+    "id": "washingtonia-robusta"
+  },
+  "week-3-position-1": {
+    "name": "Cercocarpus betuloides",
+    "id": "cercocarpus-betuloides"
+  },
+  "week-3-position-2": {
+    "name": "Cleomella arborea",
+    "id": "cleomella-arborea"
+  },
+  "week-3-position-3": {
+    "name": "Duranta erecta",
+    "id": "duranta-erecta"
+  },
+  "week-3-position-4": {
+    "name": "Fallugia paradoxa",
+    "id": "fallugia-paradoxa"
+  },
+  "week-3-position-5": {
+    "name": "Feijoa sellowiana",
+    "id": "feijoa-sellowiana"
+  },
+  "week-3-position-6": {
+    "name": "Ficus carica",
+    "id": "ficus-carica"
+  },
+  "week-3-position-7": {
+    "name": "Melaleuca nesophila",
+    "id": "melaleuca-nesophila"
+  },
+  "week-3-position-8": {
+    "name": "Myrtus communis",
+    "id": "myrtus-communis"
+  },
+  "week-3-position-9": {
+    "name": "Nerium oleander",
+    "id": "nerium-oleander"
+  },
+  "week-3-position-10": {
+    "name": "Plumeria rubra",
+    "id": "plumeria-rubra"
+  },
+  "week-3-position-11": {
+    "name": "Punica granatum",
+    "id": "punica-granatum"
+  },
+  "week-3-position-12": {
+    "name": "Rhus ovata",
+    "id": "rhus-ovata"
+  },
+  "week-3-position-13": {
+    "name": "Rosa 'Iceberg'",
+    "id": "rosa-iceberg"
+  },
+  "week-3-position-14": {
+    "name": "Salvia (Rosmarinus) officinalis",
+    "id": "salvia-rosmarinus-officinalis"
+  },
+  "week-3-position-15": {
+    "name": "Salvia leucantha",
+    "id": "salvia-leucantha"
+  },
+  "week-3-position-16": {
+    "name": "Thevetia peruviana",
+    "id": "thevetia-peruviana"
+  },
+  "week-3-position-17": {
+    "name": "Trichostema lanatum",
+    "id": "trichostema-lanatum"
+  },
+  "week-3-position-18": {
+    "name": "Westringia fruticosa",
+    "id": "westringia-fruticosa"
+  },
+  "week-3-position-19": {
+    "name": "Vitex agnus-castus",
+    "id": "vitex-agnus-castus"
+  },
+  "week-4-position-1": {
+    "name": "Alnus rhombifolia",
+    "id": "alnus-rhombifolia"
+  },
+  "week-4-position-2": {
+    "name": "Bauhinia forticata",
+    "id": "bauhinia-forticata"
+  },
+  "week-4-position-3": {
+    "name": "Cassia leptophylla",
+    "id": "cassia-leptophylla"
+  },
+  "week-4-position-4": {
+    "name": "Cedrus atlantica 'Glauca'",
+    "id": "cedrus-atlantica-glauca"
+  },
+  "week-4-position-5": {
+    "name": "Cercis canadensis",
+    "id": "cercis-canadensis"
+  },
+  "week-4-position-6": {
+    "name": "Chilopsis linearis",
+    "id": "chilopsis-linearis"
+  },
+  "week-4-position-7": {
+    "name": "Cinnamomum camphora",
+    "id": "cinnamomum-camphora"
+  },
+  "week-4-position-8": {
+    "name": "Eucalyptus ficifolia",
+    "id": "eucalyptus-ficifolia"
+  },
+  "week-4-position-9": {
+    "name": "Jacaranda mimosifolia",
+    "id": "jacaranda-mimosifolia"
+  },
+  "week-4-position-10": {
+    "name": "Lagerstroemia indica",
+    "id": "lagerstroemia-indica"
+  },
+  "week-4-position-11": {
+    "name": "Liquidambar styraciflua",
+    "id": "liquidambar-styraciflua"
+  },
+  "week-4-position-12": {
+    "name": "Magnolia grandiflora",
+    "id": "magnolia-grandiflora"
+  },
+  "week-4-position-13": {
+    "name": "Olea europea",
+    "id": "olea-europea"
+  },
+  "week-4-position-14": {
+    "name": "Pinus canariensis",
+    "id": "pinus-canariensis"
+  },
+  "week-4-position-15": {
+    "name": "Platanus racemosa",
+    "id": "platanus-racemosa"
+  },
+  "week-4-position-16": {
+    "name": "Platanus x hispanica (acerifolia)",
+    "id": "platanus-x-hispanica-acerifolia"
+  },
+  "week-4-position-17": {
+    "name": "Prunus cerasifera 'Atropurpurea'",
+    "id": "prunus-cerasifera-atropurpurea"
+  },
+  "week-4-position-18": {
+    "name": "Quercus agrifolia",
+    "id": "quercus-agrifolia"
+  },
+  "week-4-position-19": {
+    "name": "Schinus molle",
+    "id": "schinus-molle"
+  },
+  "week-4-position-20": {
+    "name": "Sequioia sempervirens",
+    "id": "sequioia-sempervirens"
+  },
+  "week-4-position-21": {
+    "name": "Tipuana tipu",
+    "id": "tipuana-tipu"
+  },
+  "week-4-position-22": {
+    "name": "Ulmus parviflora",
+    "id": "ulmus-parviflora"
+  },
+  "week-5-position-1": {
+    "name": "Achillea millefolium",
+    "id": "achillea-millefolium"
+  },
+  "week-5-position-2": {
+    "name": "Arctostaphylos edmundsii 'Carmel Sur'",
+    "id": "arctostaphylos-edmundsii-carmel-sur"
+  },
+  "week-5-position-3": {
+    "name": "Armeria maritima",
+    "id": "armeria-maritima"
+  },
+  "week-5-position-4": {
+    "name": "Artemesia californica 'Canyon Gray'",
+    "id": "artemesia-californica-canyon-gray"
+  },
+  "week-5-position-5": {
+    "name": "Baccharus pilularis 'Pigeon Point'",
+    "id": "baccharus-pilularis-pigeon-point"
+  },
+  "week-5-position-6": {
+    "name": "Ceanothus var. 'Yankee Point'",
+    "id": "ceanothus-var-yankee-point"
+  },
+  "week-5-position-7": {
+    "name": "Fragaria chiloensis",
+    "id": "fragaria-chiloensis"
+  },
+  "week-5-position-8": {
+    "name": "Phyla nodiflora",
+    "id": "phyla-nodiflora"
+  },
+  "week-5-position-9": {
+    "name": "Ribes viburnifolium",
+    "id": "ribes-viburnifolium"
+  },
+  "week-5-position-10": {
+    "name": "Salvia spathacea",
+    "id": "salvia-spathacea"
+  },
+  "week-5-position-11": {
+    "name": "Senecio mandraliscae",
+    "id": "senecio-mandraliscae"
+  },
+  "week-5-position-12": {
+    "name": "Beaumontia grandiflora",
+    "id": "beaumontia-grandiflora"
+  },
+  "week-5-position-13": {
+    "name": "Bougainvillea sp",
+    "id": "bougainvillea-sp"
+  },
+  "week-5-position-14": {
+    "name": "Distictis buccinatoria",
+    "id": "distictis-buccinatoria"
+  },
+  "week-5-position-15": {
+    "name": "Ficus pumilia (repens)",
+    "id": "ficus-pumilia-repens"
+  },
+  "week-5-position-16": {
+    "name": "Passiflora edulis",
+    "id": "passiflora-edulis"
+  },
+  "week-5-position-17": {
+    "name": "Trachelospermum jasminoides",
+    "id": "trachelospermum-jasminoides"
+  },
+  "week-5-position-18": {
+    "name": "Vitis 'Roger's Red'",
+    "id": "vitis-roger-s-red"
+  },
+  "week-5-position-19": {
+    "name": "Wisteria sinensis",
+    "id": "wisteria-sinensis"
+  },
+  "week-6-position-1": {
+    "name": "Aeonium canariense",
+    "id": "aeonium-canariense"
+  },
+  "week-6-position-2": {
+    "name": "Agave americana",
+    "id": "agave-americana"
+  },
+  "week-6-position-3": {
+    "name": "Agave attenuata",
+    "id": "agave-attenuata"
+  },
+  "week-6-position-4": {
+    "name": "Aloe arborescens",
+    "id": "aloe-arborescens"
+  },
+  "week-6-position-5": {
+    "name": "Aloe marlothii",
+    "id": "aloe-marlothii"
+  },
+  "week-6-position-6": {
+    "name": "Aloe speciosa",
+    "id": "aloe-speciosa"
+  },
+  "week-6-position-7": {
+    "name": "Aloe striata",
+    "id": "aloe-striata"
+  },
+  "week-6-position-8": {
+    "name": "Aloidendron barberae (Aloe barberae)",
+    "id": "aloidendron-barberae-aloe-barberae"
+  },
+  "week-6-position-9": {
+    "name": "Cistanthe grandiflora",
+    "id": "cistanthe-grandiflora"
+  },
+  "week-6-position-10": {
+    "name": "Crassula ovata",
+    "id": "crassula-ovata"
+  },
+  "week-6-position-11": {
+    "name": "Dasylirion longissimum",
+    "id": "dasylirion-longissimum"
+  },
+  "week-6-position-12": {
+    "name": "Dasylirion wheeleri",
+    "id": "dasylirion-wheeleri"
+  },
+  "week-6-position-13": {
+    "name": "Echeveria 'Afterglow'",
+    "id": "echeveria-afterglow"
+  },
+  "week-6-position-14": {
+    "name": "Euphorbia tirucalli 'Sticks of Fire'",
+    "id": "euphorbia-tirucalli-sticks-of-fire"
+  },
+  "week-6-position-15": {
+    "name": "Furcraea macdouglii",
+    "id": "furcraea-macdouglii"
+  },
+  "week-6-position-16": {
+    "name": "Hesperaloe parviflora",
+    "id": "hesperaloe-parviflora"
+  },
+  "week-6-position-17": {
+    "name": "Kniphofia spp.",
+    "id": "kniphofia-spp"
+  },
+  "week-6-position-18": {
+    "name": "Kumara plicatilis (Aloe plicatilis)",
+    "id": "kumara-plicatilis-aloe-plicatilis"
+  },
+  "week-6-position-19": {
+    "name": "Portulacaria afra",
+    "id": "portulacaria-afra"
+  },
+  "week-6-position-20": {
+    "name": "Yucca gloriosa",
+    "id": "yucca-gloriosa"
+  },
+  "week-7-position-1": {
+    "name": "Arbutus 'Marina'",
+    "id": "arbutus-marina"
+  },
+  "week-7-position-2": {
+    "name": "Brachychiton rupestris",
+    "id": "brachychiton-rupestris"
+  },
+  "week-7-position-3": {
+    "name": "Brugmansia sp.",
+    "id": "brugmansia-sp"
+  },
+  "week-7-position-4": {
+    "name": "Cercidium 'Desert Museum'",
+    "id": "cercidium-desert-museum"
+  },
+  "week-7-position-5": {
+    "name": "Chorisia speciosa",
+    "id": "chorisia-speciosa"
+  },
+  "week-7-position-6": {
+    "name": "Cycas revoluta",
+    "id": "cycas-revoluta"
+  },
+  "week-7-position-7": {
+    "name": "Dicksonia antarctica",
+    "id": "dicksonia-antarctica"
+  },
+  "week-7-position-8": {
+    "name": "Dracaena draco",
+    "id": "dracaena-draco"
+  },
+  "week-7-position-9": {
+    "name": "Erythrina coralloides",
+    "id": "erythrina-coralloides"
+  },
+  "week-7-position-10": {
+    "name": "Eucalyptus deglupta",
+    "id": "eucalyptus-deglupta"
+  },
+  "week-7-position-11": {
+    "name": "Ficus macrophylla",
+    "id": "ficus-macrophylla"
+  },
+  "week-7-position-12": {
+    "name": "Fremontodendron cvs",
+    "id": "fremontodendron-cvs"
+  },
+  "week-7-position-13": {
+    "name": "Ginkgo biloba",
+    "id": "ginkgo-biloba"
+  },
+  "week-7-position-14": {
+    "name": "Leptospermum laevigatum",
+    "id": "leptospermum-laevigatum"
+  },
+  "week-7-position-15": {
+    "name": "Magnolia x soulangeana",
+    "id": "magnolia-x-soulangeana"
+  },
+  "week-7-position-16": {
+    "name": "Melaleuca quinquenervia",
+    "id": "melaleuca-quinquenervia"
+  },
+  "week-7-position-17": {
+    "name": "Philodendron 'Xanadu'",
+    "id": "philodendron-xanadu"
+  },
+  "week-7-position-18": {
+    "name": "Quercus suber",
+    "id": "quercus-suber"
+  },
+  "week-7-position-19": {
+    "name": "Schefflera pueckleri",
+    "id": "schefflera-pueckleri"
+  },
+  "week-7-position-20": {
+    "name": "Sphaeropteris cooperi (Cyathea cooperi)",
+    "id": "sphaeropteris-cooperi-cyathea-cooperi"
+  },
+  "week-8-position-1": {
+    "name": "Buxus microphylla japonica",
+    "id": "buxus-microphylla-japonica"
+  },
+  "week-8-position-2": {
+    "name": "Calliandra haematocephala",
+    "id": "calliandra-haematocephala"
+  },
+  "week-8-position-3": {
+    "name": "Carissa macrocarpa",
+    "id": "carissa-macrocarpa"
+  },
+  "week-8-position-4": {
+    "name": "Cupressus sempervirens + cvs",
+    "id": "cupressus-sempervirens-cvs"
+  },
+  "week-8-position-5": {
+    "name": "Dodonaea viscosa + cvs",
+    "id": "dodonaea-viscosa-cvs"
+  },
+  "week-8-position-6": {
+    "name": "Ficus benjamina",
+    "id": "ficus-benjamina"
+  },
+  "week-8-position-7": {
+    "name": "Ficus microcarpa",
+    "id": "ficus-microcarpa"
+  },
+  "week-8-position-8": {
+    "name": "Heteromeles arbutifolia",
+    "id": "heteromeles-arbutifolia"
+  },
+  "week-8-position-9": {
+    "name": "Ligustrum japonicum",
+    "id": "ligustrum-japonicum"
+  },
+  "week-8-position-10": {
+    "name": "Morella (Myrica) californica",
+    "id": "morella-myrica-californica"
+  },
+  "week-8-position-11": {
+    "name": "Pittosporum tenuifolium",
+    "id": "pittosporum-tenuifolium"
+  },
+  "week-8-position-12": {
+    "name": "Pittosporum tobira",
+    "id": "pittosporum-tobira"
+  },
+  "week-8-position-13": {
+    "name": "Podocarpus (Afrocarpus) gracilior",
+    "id": "podocarpus-afrocarpus-gracilior"
+  },
+  "week-8-position-14": {
+    "name": "Prunus ilicifolia ssp. lyonii",
+    "id": "prunus-ilicifolia-ssp-lyonii"
+  },
+  "week-8-position-15": {
+    "name": "Rhamnus californica",
+    "id": "rhamnus-californica"
+  },
+  "week-8-position-16": {
+    "name": "Rhaphiolepsis indica",
+    "id": "rhaphiolepsis-indica"
+  },
+  "week-8-position-17": {
+    "name": "Rhus integrifolia",
+    "id": "rhus-integrifolia"
+  },
+  "week-9-position-1": {
+    "name": "Arctostaphylos sp. + cvs",
+    "id": "arctostaphylos-sp-cvs"
+  },
+  "week-9-position-2": {
+    "name": "Aristolochia californica",
+    "id": "aristolochia-californica"
+  },
+  "week-9-position-3": {
+    "name": "Asclepias fascicularis",
+    "id": "asclepias-fascicularis"
+  },
+  "week-9-position-4": {
+    "name": "Baccharis pilularis",
+    "id": "baccharis-pilularis"
+  },
+  "week-9-position-5": {
+    "name": "Berberis 'Golden Abundance'",
+    "id": "berberis-golden-abundance"
+  },
+  "week-9-position-6": {
+    "name": "Berberis nevinii",
+    "id": "berberis-nevinii"
+  },
+  "week-9-position-7": {
+    "name": "Ceanothus cvs",
+    "id": "ceanothus-cvs"
+  },
+  "week-9-position-8": {
+    "name": "Epilobium (Zauschneria) canum",
+    "id": "epilobium-zauschneria-canum"
+  },
+  "week-9-position-9": {
+    "name": "Eriogonum arborescens",
+    "id": "eriogonum-arborescens"
+  },
+  "week-9-position-10": {
+    "name": "Eriogonum fasciculatum",
+    "id": "eriogonum-fasciculatum"
+  },
+  "week-9-position-11": {
+    "name": "Eriogonum giganteum",
+    "id": "eriogonum-giganteum"
+  },
+  "week-9-position-12": {
+    "name": "Eriogonum grande rubescens",
+    "id": "eriogonum-grande-rubescens"
+  },
+  "week-9-position-13": {
+    "name": "Gambelia (Galvezia) speciosa",
+    "id": "gambelia-galvezia-speciosa"
+  },
+  "week-9-position-14": {
+    "name": "Heuchera maxima",
+    "id": "heuchera-maxima"
+  },
+  "week-9-position-15": {
+    "name": "Iris douglasiana",
+    "id": "iris-douglasiana"
+  },
+  "week-9-position-16": {
+    "name": "Penstemon 'Margarita BOP'",
+    "id": "penstemon-margarita-bop"
+  },
+  "week-9-position-17": {
+    "name": "Rhamnus (frangula) californica",
+    "id": "rhamnus-californica"
+  },
+  "week-9-position-18": {
+    "name": "Ribes viburnifolium",
+    "id": "ribes-viburnifolium"
+  },
+  "week-9-position-19": {
+    "name": "Salvia apiana",
+    "id": "salvia-apiana"
+  },
+  "week-9-position-20": {
+    "name": "Salvia spathacea",
+    "id": "salvia-spathacea"
+  },
+  "week-9-position-21": {
+    "name": "Sambucus nigra ssp. mexicana",
+    "id": "sambucus-nigra-ssp-mexicana"
+  },
+  "week-9-position-22": {
+    "name": "Verbena lilacina 'De La Mina'",
+    "id": "verbena-lilacina-de-la-mina"
+  }
+}
