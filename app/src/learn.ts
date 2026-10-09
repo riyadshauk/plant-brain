@@ -1,14 +1,21 @@
 import type { CoursePlant } from './course';
 
-export function plantsForModule(items: CoursePlant[], moduleId: string): CoursePlant[] {
+export const ALL_MODULES = 'all';
+
+export function plantsForModule(items: CoursePlant[], moduleId: string, moduleOrder: Record<string, number> = {}): CoursePlant[] {
+  if (moduleId === ALL_MODULES) {
+    // Each plant once, at its first week, so recurring plants are not drilled twice.
+    const rank = (item: CoursePlant) => (moduleOrder[item.membership.moduleId] ?? 0) * 1000 + item.membership.order;
+    return [...items].sort((a, b) => rank(a) - rank(b));
+  }
   return items.flatMap(item => {
     const membership = item.memberships.find(entry => entry.moduleId === moduleId);
     return membership ? [{ ...item, membership }] : [];
   }).sort((a, b) => a.membership.order - b.membership.order);
 }
 
-export function packetAt(items: CoursePlant[], index: number): CoursePlant[] {
-  return items.slice(index * 5, index * 5 + 5);
+export function packetAt(items: CoursePlant[], index: number, size = 5): CoursePlant[] {
+  return items.slice(index * size, index * size + size);
 }
 
 export interface DrillState {

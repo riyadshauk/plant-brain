@@ -4,7 +4,8 @@ import { gradeApproxDimension, gradeCommonName, gradeScientificName, spellingDif
 import { dueScore, emptyProgress, nextReview, recordReview, reviewKey, saveProgress, loadProgress } from './progress';
 import { loadNotes, saveNotes } from './notes';
 import { createBackup, parseBackup } from './backup';
-import { answerDrill, packetAt, plantsForModule, startDrill } from './learn';
+import { ALL_MODULES, answerDrill, packetAt, plantsForModule, startDrill } from './learn';
+import { loadPreferences, packetLength, savePreferences } from './preferences';
 import type { CourseData } from './types';
 
 describe('scientific name grading', () => {
@@ -67,6 +68,7 @@ describe('reusable plants and course memberships', () => {
     const items = collectionPlants(course, 'course');
     expect(plantsForModule(items, 'w2')[0].membership.moduleId).toBe('w2');
     expect(packetAt(items, 0)).toHaveLength(1);
+    expect(plantsForModule(items, ALL_MODULES)).toHaveLength(1);
     let drill = startDrill(['oak', 'cedar']);
     drill = answerDrill(drill, true);
     expect(drill.queue).toEqual(['cedar', 'oak']);
@@ -114,5 +116,37 @@ describe('independent review and persistence', () => {
     const notes = { oak: { distinguishingFeatures: 'leathery leaves', importantFacts: '' } };
     expect(parseBackup(createBackup(progress, notes))).toEqual({ progress, personalNotes: notes });
     expect(parseBackup(JSON.stringify(progress), notes)).toEqual({ progress, personalNotes: notes });
+  });
+});
+
+describe('packet size preference', () => {
+  const fakeItems = Array.from({ length: 12 }, (_, i) => ({ plant: { id: `p${i}` } })) as unknown as Parameters<typeof packetAt>[0];
+  it('slices packets of the chosen size, or one packet with every plant', () => {
+    expect(packetAt(fakeItems, 1, 5).map(item => item.plant.id)).toEqual(['p5', 'p6', 'p7', 'p8', 'p9']);
+    expect(packetAt(fakeItems, 1, 10)).toHaveLength(2);
+    expect(packetAt(fakeItems, 0, packetLength('all', fakeItems.length))).toHaveLength(12);
+    expect(packetLength('all', 0)).toBe(1);
+  });
+  it('remembers the choice and falls back to five for missing or invalid values', () => {
+    const store = new Map<string, string>();
+    const storage = { getItem: (key: string) => store.get(key) ?? null, setItem: (key: string, value: string) => { store.set(key, value); } };
+    expect(loadPreferences(storage).packetSize).toBe(5);
+    savePreferences({ packetSize: 'all' }, storage);
+    expect(loadPreferences(storage).packetSize).toBe('all');
+    store.set('plant-brain-preferences-v1', '{"packetSize":7}');
+    expect(loadPreferences(storage).packetSize).toBe(5);
+    store.set('plant-brain-preferences-v1', 'not json');
+    expect(loadPreferences(storage).packetSize).toBe(5);
+  });
+});
+
+describe('all weeks', () => {
+  it('lists each plant once, in week order then list order', () => {
+    const plant = (id: string, moduleId: string, order: number, second?: string) => ({
+      plant: { id }, membership: { moduleId, order },
+      memberships: [{ moduleId, order }, ...(second ? [{ moduleId: second, order: 1 }] : [])],
+    });
+    const items = [plant('c', 'w2', 1), plant('a', 'w1', 2, 'w2'), plant('b', 'w1', 1)] as unknown as Parameters<typeof plantsForModule>[0];
+    expect(plantsForModule(items, ALL_MODULES, { w1: 1, w2: 2 }).map(item => item.plant.id)).toEqual(['b', 'a', 'c']);
   });
 });
